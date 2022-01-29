@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(img/homebg.jpg);
+	background-size: cover;
+}
+.slider{
+	width: 80%;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	background-size: 100% 100%;
+	box-shadow: 1px 2px 10px 5px;
+	animation: slider 15s linear infinite;
+}
+@keyframes slider{
+	0%{background-image: url(img/s1.jpg);}
+	25%{background-image: url(img/s2.png);}
+	50%{background-image: url(img/s3.jpg);}
+	75%{background-image: url(img/s4.jpg);}
+	100%{background-image: url(img/s5.jpg);}
+}
+nav{
+	position: relative;
+	background: #34495e;
+	border-radius: 8px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 1.0);
+	opacity: 0.6;
+}
+nav a{
+	font-size: 20px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	line-height: 30px;
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	padding: 20px;
+}
+
+
+
